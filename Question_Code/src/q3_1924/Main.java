@@ -27,7 +27,6 @@ public class Main {
 		}
 		
 		sum = day + y;
-		System.out.println(sum);
 		
 		switch(sum % 7) {
 		case 0 : System.out.println("SUN"); break;
