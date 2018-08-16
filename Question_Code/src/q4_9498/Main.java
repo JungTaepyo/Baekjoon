@@ -9,7 +9,7 @@ public class Main {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int score = Integer.parseInt(br.readLine());
 		
-		if (score >= 90 && score < 100)
+		if (score >= 90 && score <= 100)
 			System.out.println("A");
 		else if (score >= 80 && score < 90)
 			System.out.println("B");
