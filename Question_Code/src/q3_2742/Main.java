@@ -1,4 +1,4 @@
-package q3_2741;
+package q3_2742;
 
 import java.util.Scanner;
 
@@ -9,8 +9,8 @@ public class Main {
 		Scanner scan = new Scanner(System.in);
 		i = scan.nextInt();
 		
-		for (int j = 0; j < i; j++) {
-			System.out.println(j+1);
+		for (int j = 0; j < 9; j++) {
+			System.out.println(i * (j + 1));
 		}
 		scan.close();
 	}

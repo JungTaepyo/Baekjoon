@@ -1,18 +1,16 @@
-package q3_2741;
+package q3_2739;
 
 import java.util.Scanner;
 
 public class Main {
-
 	public static void main(String[] args) {
-		int i = 0;
+		int n;
 		Scanner scan = new Scanner(System.in);
-		i = scan.nextInt();
+		n = scan.nextInt();
 		
-		for (int j = 0; j < i; j++) {
-			System.out.println(j+1);
+		for(int i = 1; i < 10; i++) {
+			System.out.println(n + " * " + i + " = " + n*i);
 		}
 		scan.close();
 	}
-
 }
