@@ -10,7 +10,7 @@ public class Main {
 		int size = scan.nextInt();
 		int number = scan.nextInt();
 		int[] arr = new int[size];
-
+		
 		for (int i = 0; i < arr.length; i++) {
 			arr[i] = scan.nextInt();
 		}
